@@ -1,0 +1,335 @@
+@media (max-width: 425px) {
+  .nav_container {
+    padding: 0 4rem 0 3rem;
+  }
+  .nav {
+    position: fixed;
+    top: 8rem;
+    left: -100%;
+    background: #fff;
+    height: 100vh;
+    width: 100%;
+    display: block;
+    text-align: center;
+    transition: all 0.8s ease;
+    z-index: 2;
+  }
+  .logo {
+    font-size: 2.6rem;
+  }
+  .active {
+    border: none;
+  }
+  .menu_btn {
+    display: block;
+  }
+  #click:checked ~ ul {
+    left: 0;
+  }
+  #click:checked ~ .menu_btn i:before {
+    content: "\f00d";
+  }
+  .nav li {
+    margin: 3rem 0;
+  }
+  .nav li a {
+    font-size: 2rem;
+    display: block;
+  }
+  .nav li a:hover,
+  nav ul li a.active {
+    color: cyan;
+    background: none;
+  }
+
+  /* Common */
+  .container {
+    flex-direction: column-reverse;
+    padding: 8rem 1rem 1rem 1rem;
+    justify-content: start;
+  }
+
+  .info{
+    width:80%;
+  }
+  .info h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .info h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .btn {
+    font-size: 1.4rem;
+    padding: 0.8rem 2.5rem;
+  }
+  .img_container {
+    width: 80%;
+  }
+
+  /* service page */
+
+  .service_container h1 {
+    font-size: 3.5rem;
+  }
+
+  .card_container {
+    gap: 2rem;
+    padding: 2rem;
+  }
+  .card {
+    height: 50rem;
+    padding: 1rem;
+  }
+  .card_title {
+    font-size: 1.8rem;
+  }
+  .card_text {
+    font-size: 1.4rem;
+  }
+
+  /* contact page */
+  .contact_container {
+    padding: 2rem;
+  }
+
+  .heading h1 {
+    font-size: 3.5rem;
+  }
+  .heading h5 {
+    font-size: 1.6rem;
+  }
+
+  .form_container {
+    gap: 2rem;
+    padding: 2rem;
+    /* margin:0rem 2rem; */
+    flex-direction: column;
+  }
+
+  .contact_info {
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .icons_container {
+    padding: 1rem 2rem;
+  }
+  .icons_container h4 {
+    font-size: 1.6rem;
+  }
+  .icons_container p {
+    font-size: 1.2rem;
+  }
+
+  form h3 {
+    font-size: 2.5rem;
+  }
+
+  form label {
+    font-size: 1.6rem;
+  }
+  form input,
+  form textarea {
+    font-size: 1.6rem;
+    padding: 1rem 0.8rem;
+    width: 30rem;
+  }
+
+  form button {
+    padding: 1.8rem 0.8rem;
+    width: 12rem;
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .nav_container {
+    padding: 0 4rem 0 3rem;
+  }
+  .nav {
+    position: fixed;
+    top: 8rem;
+    left: -100%;
+    background: #fff;
+    height: 100vh;
+    width: 100%;
+    display: block;
+    text-align: center;
+    transition: all 0.8s ease;
+    z-index: 2;
+  }
+  .logo {
+    font-size: 2.6rem;
+  }
+  .active {
+    border: none;
+  }
+  .menu_btn {
+    display: block;
+  }
+  #click:checked ~ ul {
+    left: 0;
+  }
+  #click:checked ~ .menu_btn i:before {
+    content: "\f00d";
+  }
+  .nav li {
+    margin: 3rem 0;
+  }
+  .nav li a {
+    font-size: 2rem;
+    display: block;
+  }
+  .nav li a:hover,
+  nav ul li a.active {
+    color: cyan;
+    background: none;
+  }
+
+  /* home and about page */
+  .container {
+    flex-direction: column-reverse;
+    padding: 8rem 1rem 5rem 1rem;
+    justify-content: start;
+  }
+
+  .info{
+    width:80%;
+  }
+
+  .info h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .info h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .btn {
+    font-size: 1.4rem;
+    padding: 0.8rem 2.5rem;
+  }
+  .img_container {
+    width: 80%;
+  }
+
+  /* service page */
+
+  .service_container h1 {
+    font-size: 3.5rem;
+  }
+
+  .card_container {
+    gap: 1rem;
+    padding: 2rem;
+    justify-content: center;
+  }
+  .card {
+    height: 50rem;
+    padding: 1rem;
+    /* width: 28rem; */
+  }
+  .card_title {
+    font-size: 1.8rem;
+  }
+  .card_text {
+    font-size: 1.4rem;
+  }
+
+  /* contact page */
+  .contact_container {
+    padding: 2rem;
+  }
+
+  .heading h1 {
+    font-size: 3.5rem;
+  }
+  .heading h5 {
+    font-size: 1.6rem;
+  }
+
+  .form_container {
+    gap: 2rem;
+    padding: 2rem;
+    flex-direction: column;
+  }
+
+  .contact_info {
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .icons_container {
+    padding: 1rem 2rem;
+  }
+  .icons_container h4 {
+    font-size: 1.6rem;
+  }
+  .icons_container p {
+    font-size: 1.2rem;
+  }
+
+  form h3 {
+    font-size: 2.5rem;
+  }
+
+  form label {
+    font-size: 1.6rem;
+  }
+  form input,
+  form textarea {
+    font-size: 1.6rem;
+    padding: 1rem 0.8rem;
+    width: 30rem;
+  }
+
+  form button {
+    padding: 1.8rem 0.8rem;
+    width: 12rem;
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1400px) {
+  /* home and about page */
+  .container {
+    flex-direction: column-reverse;
+    padding: 8rem 1rem 1rem 1rem;
+    justify-content: start;
+  }
+
+  .info{
+    width:80%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .card_container{
+    justify-content: center;
+  }
+
+  .info h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .info h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .btn {
+    font-size: 1.4rem;
+    padding: 0.8rem 2.5rem;
+  }
+  .img_container {
+    width: 60%;
+  }
+}

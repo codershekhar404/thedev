@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="nav_container">
-        <NavLink className="logo" to="/">
+        <NavLink className="logo" to="/thedev/">
           The Dev
         </NavLink>
         <input type="checkbox" name="click" id="click" />
@@ -14,22 +14,22 @@ const Navbar = () => {
         </label>
         <ul className="nav">
           <li>
-            <NavLink className="nav-link" to="/">
+            <NavLink className="nav-link" to="/thedev/" >
               Home
             </NavLink>
           </li>
           <li>
-            <NavLink className="nav-link" to="service">
+            <NavLink className="nav-link" to="thedev/service" >
               Service
             </NavLink>
           </li>
           <li>
-            <NavLink className="nav-link" to="about">
+            <NavLink className="nav-link" to="thedev/about">
               About
             </NavLink>
           </li>
           <li>
-            <NavLink className="nav-link" to="contact">
+            <NavLink className="nav-link" to="thedev/contact">
               Contact
             </NavLink>
           </li>

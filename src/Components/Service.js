@@ -12,7 +12,7 @@ const Service = () => {
           {Api.map((val, index) => {
             return (
               <Card key={index}
-                imgSrc={val.imgSrc}
+                imgSrc={process.env.PUBLIC_URL + val.imgSrc}
                 title={val.title}
                 description={val.description}
               />

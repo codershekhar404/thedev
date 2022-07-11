@@ -1,9 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 
-// styling
-import "./App.css";
-import './Res.css'
+
 
 // Componenets
 import Home from "./Components/Home";
@@ -20,10 +18,10 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="service" element={<Service />} />
-        <Route path="contact" element={<Contact />} />
-        <Route path="about" element={<About />} />
+        <Route path="/thedev" element={<Home />} />
+        <Route path="thedev/service" element={<Service />} />
+        <Route path="thedev/contact" element={<Contact />} />
+        <Route path="thedev/about" element={<About />} />
         <Route path="*" element={<Error />} />
       </Routes>
       <Footer/>

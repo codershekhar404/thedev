@@ -11,7 +11,7 @@ const Card = (props) => {
           <h5 className="card_title">{props.title}</h5>
           <p className="card_text">{props.description}</p>
           <NavLink to="" className="btn card_btn">
-            go somewhere
+            Know More
           </NavLink>
         </div>
       </div>

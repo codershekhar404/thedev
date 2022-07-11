@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 
+:root {
+  --primary_color: #565387;
+  --secondary_color: #3498db;
+  --text_primary:rgb(34, 34, 34,0.5);
+  --text_secondary: #afafb6;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -28,7 +35,7 @@ html {
 .logo {
   text-decoration: none;
   font-size: 3.5rem !important;
-  color: #565387 !important;
+  color: var(--primary_color) !important;
   border-bottom: none !important;
   font-weight: 600;
 }
@@ -45,14 +52,14 @@ html {
 .nav li a {
   font-size: 1.8rem !important;
   letter-spacing: 0.1rem;
-  color: #565387 !important;
+  color: var(--primary_color) !important;
   text-decoration: none;
   padding-bottom: 1rem;
   transition: all 0.3s ease;
 }
 
 .active {
-  border-bottom: 1px solid #565387;
+  border-bottom: 1px solid var(--primary_color);
   font-weight: 600;
 }
 
@@ -80,19 +87,19 @@ html {
   width: 50%;
 }
 .info h1 {
-  color: #565387;
+  color: var(--primary_color);
   font-size: 7rem;
   font-weight: 600;
   margin-bottom: 2rem;
 }
 
 .brand_name {
-  color: #3498db;
+  color: var(--secondary_color);
   font-weight: 600;
 }
 
 .info h2 {
-  color: rgba(0, 0, 0, 0.7);
+  color: var(--text_primary);
   font-weight: 500;
   font-size: 2.5rem;
   margin-bottom: 2rem;
@@ -109,14 +116,14 @@ html {
   outline: none;
   cursor: pointer;
   background-color: transparent;
-  border: 2px solid #3498db;
+  border: 2px solid var(--secondary_color);
   text-decoration: none;
   transition: 0.5s;
   border-radius: 5rem;
 }
 
 .btn:hover {
-  background: #3498db;
+  background: var(--secondary_color);
   color: #fff;
 }
 
@@ -157,7 +164,7 @@ html {
 .service_container h1 {
   text-align: center;
   font-size: 4.8rem;
-  color: #565387;
+  color: var(--primary_color);
   font-weight: 500;
 }
 .card_container {
@@ -192,7 +199,7 @@ html {
 .card_text {
   font-size: 1.6rem;
   font-weight: normal;
-  color: #484848;
+  color: var(--text_primary);
 }
 
 .card_btn {
@@ -217,7 +224,7 @@ html {
 .heading h1 {
   font-size: 4.8rem;
   font-weight: 500;
-  color: #565387;
+  color: var(--primary_color);
   margin-bottom: 1rem;
   text-align: center;
 }
@@ -225,7 +232,7 @@ html {
 .heading h5 {
   font-size: 2rem;
   font-weight: normal;
-  color: #484848;
+  color: var(--text_primary);
   margin-bottom: 3rem;
   text-align: center;
 }
@@ -258,7 +265,7 @@ html {
 }
 .icons_container p {
   font-size: 1.4rem;
-  color: #afafb6;
+  color: var(--text_secondary);
 }
 
 form {
@@ -269,13 +276,13 @@ form {
 
 form h3 {
   font-size: 3rem;
-  color: #222;
+  color: var(--text_tertiary);
   font-weight: 500;
 }
 
 form label {
   font-size: 1.8rem;
-  color: #484848;
+  color: var(--text_primary);
   margin: 1rem 0 0.5rem 0;
 }
 
@@ -310,19 +317,19 @@ form button {
 }
 
 form button:hover {
-  background-color: #3498db;
+  background-color: var(--secondary_color);
   color: #fff;
 }
 
 /* footer */
-footer{
+footer {
   display: flex;
   justify-content: center;
   background-color: rgb(52, 152, 219, 0.1);
   margin-bottom: 1rem;
 }
 
-footer p{
+footer p {
   font-size: 1.6rem;
-  color: #484848;
+  color: var(--text_primary);
 }

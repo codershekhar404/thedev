@@ -6,8 +6,8 @@ const Home = () => {
     <Common
       title="Grow your business with"
       btn_title="Get Started"
-      imgSrc="/img/img1.svg"
-      visit="/service"
+      imgSrc={process.env.PUBLIC_URL + "/img/img1.svg"}
+      visit="thedev/service"
       brand="The Dev"
       para="We are the team of talented developer making websites"
     />

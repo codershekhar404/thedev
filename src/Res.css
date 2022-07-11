@@ -145,6 +145,11 @@
     width: 12rem;
     font-size: 1.4rem;
   }
+  
+  footer p {
+    font-size: 1.4rem;
+    color: var(--text_primary);
+  }
 }
 
 @media (min-width: 426px) and (max-width: 768px) {

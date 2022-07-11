@@ -6,8 +6,8 @@ const Error = () => {
       <Common
         title="I have a bad news for you"
         btn_title="Come Home"
-        imgSrc="/img/error.svg"
-        visit="/"
+        imgSrc={process.env.PUBLIC_URL + "/img/error.svg"}
+        visit="/thedev"
         para=" The Page you are looking for might be removed or its temporarily
             unavailable"
       />
